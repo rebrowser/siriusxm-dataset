@@ -1,0 +1,79 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "playedAt",
+    "type": "datetime",
+    "description": "Start time of the content playback (UTC)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "channelId",
+    "type": "string",
+    "description": "Channel ID - numeric string or slug (e.g., 8206, 9351, siriushits1, thevault, altnation)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "title",
+    "type": "string",
+    "description": "Song/content title, may include year suffix like \"(98)\" or markers like \"EXCLUSIVE\"",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "artist",
+    "type": "string",
+    "description": "Artist name(s) joined with \" / \", may contain live show date/venue for concert recordings",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "album",
+    "type": "string",
+    "description": "Album title",
+    "fillRate": 3,
+    "premium": false
+  },
+  {
+    "name": "durationSeconds",
+    "type": "float",
+    "description": "Duration in seconds with millisecond precision",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "channelName",
+    "type": "string",
+    "description": "Channel name (from channels table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "channelCategoryName",
+    "type": "string",
+    "description": "Channel category (from channels table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "channelGenreName",
+    "type": "string",
+    "description": "Channel genre (from channels table)",
+    "fillRate": null,
+    "premium": false
+  }
+]

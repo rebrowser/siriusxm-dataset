@@ -1,0 +1,240 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "channelId",
+    "type": "string",
+    "description": "Unique channel ID (e.g., siriushits1, 8206, 9556)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "assetId",
+    "type": "string",
+    "description": "Asset ID (e.g., 31NXk2ZlYdYzrF53SuFOaw)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Channel display name (e.g., SiriusXM Hits 1, 80s on 8)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shortDescription",
+    "type": "string",
+    "description": "Short channel description (e.g., Pop hits, now to next)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "mediumDescription",
+    "type": "string",
+    "description": "Medium-length channel description",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "longDescription",
+    "type": "string",
+    "description": "Full channel description with details about hosts and content",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "category",
+    "type": "string",
+    "description": "Category slug (music, sports, entertainment, news, comedy, howard)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "categoryName",
+    "type": "string",
+    "description": "Category display name (Music, Sports, Talk & Entertainment, News & Issues, Comedy, Howard Stern)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "genre",
+    "type": "string",
+    "description": "Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "genreName",
+    "type": "string",
+    "description": "Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "genreIconUrl",
+    "type": "string",
+    "description": "Genre icon URL (SVG)",
+    "fillRate": 28,
+    "premium": false
+  },
+  {
+    "name": "siriusChannelNumber",
+    "type": "float",
+    "description": "Sirius satellite radio channel number",
+    "fillRate": 22,
+    "premium": false
+  },
+  {
+    "name": "xmChannelNumber",
+    "type": "float",
+    "description": "XM satellite radio channel number",
+    "fillRate": 33,
+    "premium": false
+  },
+  {
+    "name": "streamingChannelNumber",
+    "type": "float",
+    "description": "Streaming/app channel number",
+    "fillRate": 90,
+    "premium": false
+  },
+  {
+    "name": "siriusServiceId",
+    "type": "float",
+    "description": "Sirius service ID",
+    "fillRate": 21,
+    "premium": false
+  },
+  {
+    "name": "xmServiceId",
+    "type": "float",
+    "description": "XM service ID",
+    "fillRate": 32,
+    "premium": false
+  },
+  {
+    "name": "vanityUrl",
+    "type": "string",
+    "description": "Vanity URL path (e.g., /channels/siriusxm-hits-1)",
+    "fillRate": 65,
+    "premium": false
+  },
+  {
+    "name": "deepLink",
+    "type": "string",
+    "description": "Deep link URL for mobile app",
+    "fillRate": 97,
+    "premium": true
+  },
+  {
+    "name": "primaryColor",
+    "type": "string",
+    "description": "Primary brand color hex code (e.g., #ec008c)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "secondaryColor",
+    "type": "string",
+    "description": "Secondary brand color hex code (e.g., #1b3588)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "colorLogoUrl",
+    "type": "string",
+    "description": "Color logo URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "greyscaleLogoUrl",
+    "type": "string",
+    "description": "Greyscale/white logo URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "explicitContent",
+    "type": "bool",
+    "description": "Channel contains explicit content (true=Yes, false=No)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "availableToPackage",
+    "type": "bool",
+    "description": "Channel is available in subscription packages",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "exclusiveContent",
+    "type": "bool",
+    "description": "Channel has exclusive content",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "xtraChannel",
+    "type": "bool",
+    "description": "Channel is an Xtra channel",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "deliveryTypes",
+    "type": "array",
+    "description": "Delivery methods (satellite, ip, mobile)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "packages",
+    "type": "array",
+    "description": "Subscription package IDs that include this channel",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "artistsYouHear",
+    "type": "array",
+    "description": "Artists/hosts featured on this channel",
+    "fillRate": 23,
+    "premium": false
+  },
+  {
+    "name": "relatedChannels",
+    "type": "array",
+    "description": "Related channel IDs",
+    "fillRate": 55,
+    "premium": false
+  },
+  {
+    "name": "showSchedules",
+    "type": "array",
+    "description": "Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms)",
+    "fillRate": 94,
+    "premium": true
+  }
+]
