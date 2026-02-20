@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--02--18-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.3M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--02--20-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.3M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,8 +21,10 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **792** total records from 2025-12-28 to 2026-02-08, **790** rows in this sample (99.7% of full dataset).
+> **792** total records from 2025-12-28 to 2026-02-08, **791** rows in this sample (99.9% of full dataset).
 > Exported as a single file, overwritten daily.
+
+![Data Growth](channels/chart-growth.svg)
 
 | Field | Type | Fill Rate | Description |
 | --- | --- | --- | --- |
@@ -65,8 +67,6 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 > 🔒 **Premium fields** are included in the data files but their values are replaced with `[PREMIUM]`. To access real values, [use our website](https://rebrowser.net/products/datasets/siriusxm).
 
-
-![Data Growth](channels/chart-growth.svg)
 
 
 #### Field Distributions
@@ -122,6 +122,8 @@ Real-time track play log for SiriusXM channels — every song played with artist
 > **59,297,718** total records from 2021-10-10 to 2026-02-15, **up to 600,000** rows in this sample (1.0% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
+![Data Growth](channel-plays/chart-growth.svg)
+
 | Field | Type | Fill Rate | Description |
 | --- | --- | --- | --- |
 | `_primaryKey` | `string` | 100% | Unique identifier for this record |
@@ -138,8 +140,6 @@ Real-time track play log for SiriusXM channels — every song played with artist
 
 
 
-
-![Data Growth](channel-plays/chart-growth.svg)
 
 
 
@@ -183,7 +183,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Channel Plays
 
 
-[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 58,741,510 records
+[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 58,799,339 records
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
@@ -199,7 +199,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 117,075 records
+[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 121,601 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
@@ -316,4 +316,8 @@ Commercial use requires a paid license — see [pricing](https://rebrowser.net/p
 ## Disclaimer
 
 Rebrowser is an independent data provider and is not affiliated with, endorsed by, or sponsored by SiriusXM. Any trademarks are the property of their respective owners. This dataset is compiled from publicly available information; we do not request or collect SiriusXM user credentials. By using this dataset, you agree to comply with SiriusXM's Terms of Service and all applicable laws and regulations. Images, logos, descriptions, and other materials included in this dataset remain the intellectual property of their respective owners and are provided solely for informational purposes. Rebrowser makes no warranties regarding the accuracy, completeness, or legality of the data and assumes no liability for how the data is used. You are solely responsible for ensuring that your use of this dataset does not infringe on the rights of any third party.
+
+
+You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/siriusxm-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/siriusxm-dataset), [Zenodo](https://doi.org/10.5281/zenodo.18705846).
+
 
