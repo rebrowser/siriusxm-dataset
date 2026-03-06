@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--03--04-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.8M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--03--06-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.8M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **792** total records from 2025-12-28 to 2026-02-08, **792** rows in this sample (100.0% of full dataset).
+> **793** total records from 2025-12-28 to 2026-03-01, **792** rows in this sample (99.9% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -78,10 +78,10 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 440 | `███████████░░░░░░░░░` 55.6% |
-| Sports | 275 | `███████░░░░░░░░░░░░░` 34.7% |
+| Music | 440 | `███████████░░░░░░░░░` 55.5% |
+| Sports | 276 | `███████░░░░░░░░░░░░░` 34.8% |
 | Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
-| News & Issues | 21 | `█░░░░░░░░░░░░░░░░░░░` 2.7% |
+| News & Issues | 21 | `█░░░░░░░░░░░░░░░░░░░` 2.6% |
 | Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
 | Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
 
@@ -94,13 +94,13 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Sports Play-by-Play | 69 | `███░░░░░░░░░░░░░░░░░` 16.2% |
+| Sports Play-by-Play | 70 | `███░░░░░░░░░░░░░░░░░` 16.5% |
 | All Xtra | 60 | `███░░░░░░░░░░░░░░░░░` 14.1% |
 | MLB Play-by-Play | 47 | `██░░░░░░░░░░░░░░░░░░` 11.1% |
 | NFL Play-by-Play | 43 | `██░░░░░░░░░░░░░░░░░░` 10.1% |
 | Rock | 41 | `██░░░░░░░░░░░░░░░░░░` 9.6% |
-| Pop | 38 | `██░░░░░░░░░░░░░░░░░░` 8.9% |
 | NHL Play-by-Play | 37 | `██░░░░░░░░░░░░░░░░░░` 8.7% |
+| Pop | 37 | `██░░░░░░░░░░░░░░░░░░` 8.7% |
 | NBA Play-by-Play | 36 | `██░░░░░░░░░░░░░░░░░░` 8.5% |
 | Party | 29 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
 | Music Mash | 25 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
@@ -119,7 +119,7 @@ Real-time track play log for SiriusXM channels — every song played with artist
 
 
 
-> **59,767,954** total records from 2021-10-10 to 2026-03-01, **up to 600,000** rows in this sample (1.0% of full dataset).
+> **59,848,142** total records from 2021-10-10 to 2026-03-01, **up to 600,000** rows in this sample (1.0% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
 ![Data Growth](channel-plays/chart-growth.svg)
@@ -183,23 +183,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Channel Plays
 
 
-[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 59,261,213 records
+[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 59,357,818 records
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
-[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 1,643,622 records
+[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 1,763,731 records
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
-[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 54,841,537 records
+[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 54,943,743 records
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
-[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,526,085 records
+[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,531,158 records
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 165,716 records
+[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 177,383 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
