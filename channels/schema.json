@@ -234,7 +234,7 @@
     "name": "showSchedules",
     "type": "array",
     "description": "Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms)",
-    "fillRate": 94,
+    "fillRate": 21,
     "premium": true
   }
 ]
