@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--04-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--04--05-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -61,7 +61,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
 | `relatedChannels` | `array` | 55% | Related channel IDs |
-| `showSchedules` 🔒 | `array` | 21% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
+| `showSchedules` 🔒 | `array` | 94% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
 
@@ -155,7 +155,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Radio Channels
 
 
-[Music Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/music-channels) — 441 records
+[Music Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/music-channels) — 443 records
 
 ↳ `[{"field":"categoryName","op":"is","value":"Music"},{"sort":"name ASC"}]`
 
@@ -163,7 +163,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"categoryName","op":"is","value":"Sports"},{"sort":"name ASC"}]`
 
-[Xtra Streaming-Only Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/xtra-streaming-channels) — 60 records
+[Xtra Streaming-Only Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/xtra-streaming-channels) — 61 records
 
 ↳ `[{"field":"genreName","op":"is","value":"All Xtra"},{"sort":"name ASC"}]`
 
