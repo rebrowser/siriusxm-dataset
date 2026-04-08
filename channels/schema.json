@@ -101,7 +101,7 @@
     "name": "siriusChannelNumber",
     "type": "float",
     "description": "Sirius satellite radio channel number",
-    "fillRate": 22,
+    "fillRate": 21,
     "premium": false
   },
   {
@@ -234,7 +234,7 @@
     "name": "showSchedules",
     "type": "array",
     "description": "Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms)",
-    "fillRate": 94,
+    "fillRate": 21,
     "premium": true
   }
 ]

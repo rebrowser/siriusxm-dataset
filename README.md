@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--07-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--04--08-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **796** total records from 2025-12-28 to 2026-03-15, **796** rows in this sample (100.0% of full dataset).
+> **797** total records from 2025-12-28 to 2026-04-05, **796** rows in this sample (99.9% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -42,7 +42,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `genre` | `string` | 100% | Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.) |
 | `genreName` | `string` | 100% | Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.) |
 | `genreIconUrl` | `string` | 28% | Genre icon URL (SVG) |
-| `siriusChannelNumber` | `float` | 22% | Sirius satellite radio channel number |
+| `siriusChannelNumber` | `float` | 21% | Sirius satellite radio channel number |
 | `xmChannelNumber` | `float` | 33% | XM satellite radio channel number |
 | `streamingChannelNumber` | `float` | 90% | Streaming/app channel number |
 | `siriusServiceId` | `float` | 21% | Sirius service ID |
@@ -61,7 +61,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
 | `relatedChannels` | `array` | 55% | Related channel IDs |
-| `showSchedules` 🔒 | `array` | 94% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
+| `showSchedules` 🔒 | `array` | 21% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
 
@@ -78,8 +78,8 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 443 | `███████████░░░░░░░░░` 55.7% |
-| Sports | 276 | `███████░░░░░░░░░░░░░` 34.7% |
+| Music | 444 | `███████████░░░░░░░░░` 55.7% |
+| Sports | 276 | `███████░░░░░░░░░░░░░` 34.6% |
 | Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 | News & Issues | 21 | `█░░░░░░░░░░░░░░░░░░░` 2.6% |
 | Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
