@@ -227,7 +227,7 @@
     "name": "relatedChannels",
     "type": "array",
     "description": "Related channel IDs",
-    "fillRate": 55,
+    "fillRate": 54,
     "premium": false
   },
   {

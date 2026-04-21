@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--20-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--04--21-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **797** total records from 2025-12-28 to 2026-04-05, **796** rows in this sample (99.9% of full dataset).
+> **798** total records from 2025-12-28 to 2026-04-19, **797** rows in this sample (99.9% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -60,7 +60,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `deliveryTypes` | `array` | 100% | Delivery methods (satellite, ip, mobile) |
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
-| `relatedChannels` | `array` | 55% | Related channel IDs |
+| `relatedChannels` | `array` | 54% | Related channel IDs |
 | `showSchedules` 🔒 | `array` | 94% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
@@ -78,10 +78,10 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 444 | `███████████░░░░░░░░░` 55.7% |
+| Music | 444 | `███████████░░░░░░░░░` 55.6% |
 | Sports | 276 | `███████░░░░░░░░░░░░░` 34.6% |
 | Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
-| News & Issues | 21 | `█░░░░░░░░░░░░░░░░░░░` 2.6% |
+| News & Issues | 22 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
 | Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
 | Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
 
