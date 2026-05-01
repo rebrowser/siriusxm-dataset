@@ -45,7 +45,7 @@
     "name": "shortDescription",
     "type": "string",
     "description": "Short channel description (e.g., Pop hits, now to next)",
-    "fillRate": 88,
+    "fillRate": 100,
     "premium": false
   },
   {
@@ -59,7 +59,7 @@
     "name": "longDescription",
     "type": "string",
     "description": "Full channel description with details about hosts and content",
-    "fillRate": 87,
+    "fillRate": 100,
     "premium": false
   },
   {
@@ -234,7 +234,7 @@
     "name": "showSchedules",
     "type": "array",
     "description": "Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms)",
-    "fillRate": 21,
+    "fillRate": 94,
     "premium": true
   }
 ]

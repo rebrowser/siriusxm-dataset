@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--30-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--05--01-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -34,9 +34,9 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `channelId` | `string` | 100% | Unique channel ID (e.g., siriushits1, 8206, 9556) |
 | `assetId` | `string` | 100% | Asset ID (e.g., 31NXk2ZlYdYzrF53SuFOaw) |
 | `name` | `string` | 100% | Channel display name (e.g., SiriusXM Hits 1, 80s on 8) |
-| `shortDescription` | `string` | 88% | Short channel description (e.g., Pop hits, now to next) |
+| `shortDescription` | `string` | 100% | Short channel description (e.g., Pop hits, now to next) |
 | `mediumDescription` | `string` | 100% | Medium-length channel description |
-| `longDescription` | `string` | 87% | Full channel description with details about hosts and content |
+| `longDescription` | `string` | 100% | Full channel description with details about hosts and content |
 | `category` | `string` | 100% | Category slug (music, sports, entertainment, news, comedy, howard) |
 | `categoryName` | `string` | 100% | Category display name (Music, Sports, Talk & Entertainment, News & Issues, Comedy, Howard Stern) |
 | `genre` | `string` | 100% | Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.) |
@@ -61,7 +61,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
 | `relatedChannels` | `array` | 54% | Related channel IDs |
-| `showSchedules` 🔒 | `array` | 21% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
+| `showSchedules` 🔒 | `array` | 94% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
 
