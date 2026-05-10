@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--05--09-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--05--10-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **798** total records from 2025-12-28 to 2026-04-19, **798** rows in this sample (100.0% of full dataset).
+> **800** total records from 2025-12-28 to 2026-05-03, **798** rows in this sample (99.8% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -41,7 +41,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `categoryName` | `string` | 100% | Category display name (Music, Sports, Talk & Entertainment, News & Issues, Comedy, Howard Stern) |
 | `genre` | `string` | 100% | Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.) |
 | `genreName` | `string` | 100% | Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.) |
-| `genreIconUrl` | `string` | 28% | Genre icon URL (SVG) |
+| `genreIconUrl` | `string` | 29% | Genre icon URL (SVG) |
 | `siriusChannelNumber` | `float` | 21% | Sirius satellite radio channel number |
 | `xmChannelNumber` | `float` | 33% | XM satellite radio channel number |
 | `streamingChannelNumber` | `float` | 90% | Streaming/app channel number |
@@ -78,10 +78,10 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 444 | `███████████░░░░░░░░░` 55.6% |
-| Sports | 276 | `███████░░░░░░░░░░░░░` 34.6% |
+| Music | 445 | `███████████░░░░░░░░░` 55.6% |
+| Sports | 276 | `███████░░░░░░░░░░░░░` 34.5% |
 | Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
-| News & Issues | 22 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| News & Issues | 23 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
 | Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
 | Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
 
@@ -94,12 +94,12 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Sports Play-by-Play | 70 | `███░░░░░░░░░░░░░░░░░` 16.4% |
-| All Xtra | 61 | `███░░░░░░░░░░░░░░░░░` 14.3% |
+| Sports Play-by-Play | 70 | `███░░░░░░░░░░░░░░░░░` 16.3% |
+| All Xtra | 62 | `███░░░░░░░░░░░░░░░░░` 14.5% |
 | MLB Play-by-Play | 47 | `██░░░░░░░░░░░░░░░░░░` 11.0% |
 | NFL Play-by-Play | 43 | `██░░░░░░░░░░░░░░░░░░` 10.0% |
-| Rock | 41 | `██░░░░░░░░░░░░░░░░░░` 9.6% |
-| Pop | 39 | `██░░░░░░░░░░░░░░░░░░` 9.1% |
+| Rock | 42 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
+| Pop | 38 | `██░░░░░░░░░░░░░░░░░░` 8.9% |
 | NHL Play-by-Play | 37 | `██░░░░░░░░░░░░░░░░░░` 8.6% |
 | NBA Play-by-Play | 36 | `██░░░░░░░░░░░░░░░░░░` 8.4% |
 | Party | 29 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
@@ -195,7 +195,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
-[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,666,931 records
+[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,648,130 records
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
