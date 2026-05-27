@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--05--20-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--05--27-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **800** total records from 2025-12-28 to 2026-05-03, **798** rows in this sample (99.8% of full dataset).
+> **802** total records from 2025-12-28 to 2026-05-17, **800** rows in this sample (99.8% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -41,7 +41,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `categoryName` | `string` | 100% | Category display name (Music, Sports, Talk & Entertainment, News & Issues, Comedy, Howard Stern) |
 | `genre` | `string` | 100% | Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.) |
 | `genreName` | `string` | 100% | Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.) |
-| `genreIconUrl` | `string` | 29% | Genre icon URL (SVG) |
+| `genreIconUrl` | `string` | 28% | Genre icon URL (SVG) |
 | `siriusChannelNumber` | `float` | 21% | Sirius satellite radio channel number |
 | `xmChannelNumber` | `float` | 33% | XM satellite radio channel number |
 | `streamingChannelNumber` | `float` | 90% | Streaming/app channel number |
@@ -78,12 +78,12 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 445 | `███████████░░░░░░░░░` 55.6% |
-| Sports | 276 | `███████░░░░░░░░░░░░░` 34.5% |
+| Music | 447 | `███████████░░░░░░░░░` 55.7% |
+| Sports | 276 | `███████░░░░░░░░░░░░░` 34.4% |
 | Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 | News & Issues | 23 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
 | Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
-| Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
+| Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
 
 </details>
 
@@ -155,7 +155,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Radio Channels
 
 
-[Music Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/music-channels) — 444 records
+[Music Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/music-channels) — 445 records
 
 ↳ `[{"field":"categoryName","op":"is","value":"Music"},{"sort":"name ASC"}]`
 
@@ -163,7 +163,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"categoryName","op":"is","value":"Sports"},{"sort":"name ASC"}]`
 
-[Xtra Streaming-Only Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/xtra-streaming-channels) — 61 records
+[Xtra Streaming-Only Channels](https://rebrowser.net/products/datasets/siriusxm/channels/views/xtra-streaming-channels) — 62 records
 
 ↳ `[{"field":"genreName","op":"is","value":"All Xtra"},{"sort":"name ASC"}]`
 

@@ -94,7 +94,7 @@
     "name": "genreIconUrl",
     "type": "string",
     "description": "Genre icon URL (SVG)",
-    "fillRate": 29,
+    "fillRate": 28,
     "premium": false
   },
   {
