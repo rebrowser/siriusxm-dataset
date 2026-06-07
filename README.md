@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--06--05-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--06--06-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -43,7 +43,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `genreName` | `string` | 100% | Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.) |
 | `genreIconUrl` | `string` | 28% | Genre icon URL (SVG) |
 | `siriusChannelNumber` | `float` | 21% | Sirius satellite radio channel number |
-| `xmChannelNumber` | `float` | 33% | XM satellite radio channel number |
+| `xmChannelNumber` | `float` | 32% | XM satellite radio channel number |
 | `streamingChannelNumber` | `float` | 90% | Streaming/app channel number |
 | `siriusServiceId` | `float` | 21% | Sirius service ID |
 | `xmServiceId` | `float` | 32% | XM service ID |

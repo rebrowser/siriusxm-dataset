@@ -108,7 +108,7 @@
     "name": "xmChannelNumber",
     "type": "float",
     "description": "XM satellite radio channel number",
-    "fillRate": 33,
+    "fillRate": 32,
     "premium": false
   },
   {
