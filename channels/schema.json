@@ -94,7 +94,7 @@
     "name": "genreIconUrl",
     "type": "string",
     "description": "Genre icon URL (SVG)",
-    "fillRate": 28,
+    "fillRate": 29,
     "premium": false
   },
   {
@@ -234,7 +234,7 @@
     "name": "showSchedules",
     "type": "array",
     "description": "Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms)",
-    "fillRate": 94,
+    "fillRate": 98,
     "premium": true
   }
 ]

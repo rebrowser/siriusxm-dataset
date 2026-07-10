@@ -1,11 +1,11 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--07--09-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-59.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--07--10-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-60.0M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
 
-The [SiriusXM dataset](https://rebrowser.net/products/datasets/siriusxm) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (59.9M records, updated daily), visit [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm).
+The [SiriusXM dataset](https://rebrowser.net/products/datasets/siriusxm) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (60.0M records, updated daily), visit [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm).
 
 
 This dataset contains **2** entities, each in its own folder: Radio Channels (`channels`), Channel Plays (`channel-plays`). See below for a full field breakdown, sample counts, and data distributions for each.
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **802** total records from 2025-12-28 to 2026-05-17, **802** rows in this sample (100.0% of full dataset).
+> **806** total records from 2025-12-28 to 2026-07-05, **802** rows in this sample (99.5% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -41,7 +41,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `categoryName` | `string` | 100% | Category display name (Music, Sports, Talk & Entertainment, News & Issues, Comedy, Howard Stern) |
 | `genre` | `string` | 100% | Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.) |
 | `genreName` | `string` | 100% | Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.) |
-| `genreIconUrl` | `string` | 28% | Genre icon URL (SVG) |
+| `genreIconUrl` | `string` | 29% | Genre icon URL (SVG) |
 | `siriusChannelNumber` | `float` | 21% | Sirius satellite radio channel number |
 | `xmChannelNumber` | `float` | 32% | XM satellite radio channel number |
 | `streamingChannelNumber` | `float` | 90% | Streaming/app channel number |
@@ -61,7 +61,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
 | `relatedChannels` | `array` | 54% | Related channel IDs |
-| `showSchedules` 🔒 | `array` | 94% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
+| `showSchedules` 🔒 | `array` | 98% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
 
@@ -78,9 +78,9 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 447 | `███████████░░░░░░░░░` 55.7% |
-| Sports | 276 | `███████░░░░░░░░░░░░░` 34.4% |
-| Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| Music | 451 | `███████████░░░░░░░░░` 56.0% |
+| Sports | 276 | `███████░░░░░░░░░░░░░` 34.2% |
+| Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
 | News & Issues | 23 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
 | Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
 | Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
@@ -95,14 +95,14 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | Value | Count | Share |
 | --- | --- | --- |
 | Sports Play-by-Play | 70 | `███░░░░░░░░░░░░░░░░░` 16.3% |
-| All Xtra | 62 | `███░░░░░░░░░░░░░░░░░` 14.5% |
-| MLB Play-by-Play | 47 | `██░░░░░░░░░░░░░░░░░░` 11.0% |
+| All Xtra | 62 | `███░░░░░░░░░░░░░░░░░` 14.4% |
+| MLB Play-by-Play | 47 | `██░░░░░░░░░░░░░░░░░░` 10.9% |
+| Rock | 43 | `██░░░░░░░░░░░░░░░░░░` 10.0% |
 | NFL Play-by-Play | 43 | `██░░░░░░░░░░░░░░░░░░` 10.0% |
-| Rock | 42 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
-| Pop | 38 | `██░░░░░░░░░░░░░░░░░░` 8.9% |
+| Pop | 38 | `██░░░░░░░░░░░░░░░░░░` 8.8% |
 | NHL Play-by-Play | 37 | `██░░░░░░░░░░░░░░░░░░` 8.6% |
 | NBA Play-by-Play | 36 | `██░░░░░░░░░░░░░░░░░░` 8.4% |
-| Party | 29 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
+| Party | 29 | `█░░░░░░░░░░░░░░░░░░░` 6.7% |
 | Music Mash | 25 | `█░░░░░░░░░░░░░░░░░░░` 5.8% |
 
 </details>
@@ -119,7 +119,7 @@ Real-time track play log for SiriusXM channels — every song played with artist
 
 
 
-> **59,920,077** total records from 2021-10-10 to 2026-03-01, **up to 600,000** rows in this sample (1.0% of full dataset).
+> **59,979,700** total records from 2021-10-10 to 2026-07-05, **up to 600,000** rows in this sample (1.0% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
 ![Data Growth](channel-plays/chart-growth.svg)
