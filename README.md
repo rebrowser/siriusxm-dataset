@@ -1,11 +1,11 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--07--24-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-60.7M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--07--30-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-60.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
 
-The [SiriusXM dataset](https://rebrowser.net/products/datasets/siriusxm) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (60.7M records, updated daily), visit [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm).
+The [SiriusXM dataset](https://rebrowser.net/products/datasets/siriusxm) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (60.9M records, updated daily), visit [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm).
 
 
 This dataset contains **2** entities, each in its own folder: Radio Channels (`channels`), Channel Plays (`channel-plays`). See below for a full field breakdown, sample counts, and data distributions for each.
@@ -119,7 +119,7 @@ Real-time track play log for SiriusXM channels — every song played with artist
 
 
 
-> **60,656,358** total records from 2021-10-10 to 2026-07-19, **up to 600,000** rows in this sample (0.99% of full dataset).
+> **60,927,629** total records from 2021-10-10 to 2026-07-26, **up to 600,000** rows in this sample (0.98% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
 ![Data Growth](channel-plays/chart-growth.svg)
@@ -183,23 +183,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Channel Plays
 
 
-[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 60,139,460 records
+[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 60,373,649 records
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
-[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 2,486,374 records
+[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 2,687,324 records
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
-[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 55,635,240 records
+[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 55,861,412 records
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
-[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,698,740 records
+[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,744,196 records
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 255,684 records
+[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 273,776 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
