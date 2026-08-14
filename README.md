@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--13-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-61.2M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--08--14-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-61.2M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -183,23 +183,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Channel Plays
 
 
-[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 60,944,782 records
+[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 60,999,325 records
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
-[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 3,227,150 records
+[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 3,283,311 records
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
-[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 56,404,007 records
+[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 56,441,090 records
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
-[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,863,161 records
+[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,874,373 records
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 321,310 records
+[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 324,987 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
@@ -282,10 +282,10 @@ Benchmark SiriusXM genre coverage and programming breadth against terrestrial ra
 ## Full Dataset on Rebrowser
 
 
-This repo publishes free research data (14 days freshness lag · up to 10,000 rows per file · up to 1 year of history). The complete, real-time dataset is at [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm)
+This repo publishes free research data (14 days freshness lag · up to 10,000 rows per file · up to 1 year of history). Browse the currently observed dataset at [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm); coverage and freshness can vary by source category.
 
 On Rebrowser you can:
-- **Filter before you buy** — use the web UI to apply filters on any field and sort by any column. Preview results before purchasing. You only pay for records that match your criteria.
+- **Filter before you buy** — use the web UI to apply documented filters and sortable columns. Preview results before purchasing; paid exports freeze their exact selected identities before billing.
 - **Export in your format** — CSV, JSON, JSONL, or Parquet depending on your plan.
 - **Access via API** — integrate dataset queries into your pipelines and workflows.
 - **Choose your freshness** — plans range from a 14-day lag to real-time data with no delay.
@@ -319,5 +319,4 @@ Rebrowser is an independent data provider and is not affiliated with, endorsed b
 
 
 You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/siriusxm-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/siriusxm-dataset), [Zenodo](https://doi.org/10.5281/zenodo.18705846).
-
 
