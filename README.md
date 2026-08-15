@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--14-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-61.2M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--08--15-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-61.2M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -187,7 +187,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
-[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 3,283,311 records
+[Plays with Album Metadata](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/plays-with-albums) — 3,320,773 records
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
@@ -195,7 +195,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
-[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,874,373 records
+[Pop Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/pop-channel-plays) — 14,884,047 records
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
