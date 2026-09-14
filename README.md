@@ -1,6 +1,6 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--09--12-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-62.7M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--09--13-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-62.7M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
@@ -21,7 +21,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 
 
-> **806** total records from 2025-12-28 to 2026-07-05, **806** rows in this sample (100.0% of full dataset).
+> **830** total records from 2025-12-28 to 2026-08-30, **806** rows in this sample (97.1% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](channels/chart-growth.svg)
@@ -41,15 +41,15 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `categoryName` | `string` | 100% | Category display name (Music, Sports, Talk & Entertainment, News & Issues, Comedy, Howard Stern) |
 | `genre` | `string` | 100% | Genre slug (43 values: pop, rock, hiphop, country, sportsplay, allxtra, mlbpbp, nflplay, etc.) |
 | `genreName` | `string` | 100% | Genre display name (Pop, Rock, Hip-Hop/R&B, Sports Play-by-Play, etc.) |
-| `genreIconUrl` | `string` | 29% | Genre icon URL (SVG) |
-| `siriusChannelNumber` | `float` | 21% | Sirius satellite radio channel number |
-| `xmChannelNumber` | `float` | 32% | XM satellite radio channel number |
-| `streamingChannelNumber` | `float` | 90% | Streaming/app channel number |
-| `siriusServiceId` | `float` | 21% | Sirius service ID |
-| `xmServiceId` | `float` | 32% | XM service ID |
-| `vanityUrl` | `string` | 65% | Vanity URL path (e.g., /channels/siriusxm-hits-1) |
-| `deepLink` 🔒 | `string` | 97% | Deep link URL for mobile app |
-| `primaryColor` | `string` | 100% | Primary brand color hex code (e.g., #ec008c) |
+| `genreIconUrl` | `string` | 28% | Genre icon URL (SVG) |
+| `siriusChannelNumber` | `float` | 20% | Sirius satellite radio channel number |
+| `xmChannelNumber` | `float` | 33% | XM satellite radio channel number |
+| `streamingChannelNumber` | `float` | 91% | Streaming/app channel number |
+| `siriusServiceId` | `float` | 20% | Sirius service ID |
+| `xmServiceId` | `float` | 33% | XM service ID |
+| `vanityUrl` | `string` | 66% | Vanity URL path (e.g., /channels/siriusxm-hits-1) |
+| `deepLink` 🔒 | `string` | 91% | Deep link URL for mobile app |
+| `primaryColor` | `string` | 99% | Primary brand color hex code (e.g., #ec008c) |
 | `secondaryColor` | `string` | 100% | Secondary brand color hex code (e.g., #1b3588) |
 | `colorLogoUrl` 🔒 | `string` | 100% | Color logo URL |
 | `greyscaleLogoUrl` 🔒 | `string` | 100% | Greyscale/white logo URL |
@@ -60,8 +60,8 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `deliveryTypes` | `array` | 100% | Delivery methods (satellite, ip, mobile) |
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
-| `relatedChannels` | `array` | 54% | Related channel IDs |
-| `showSchedules` 🔒 | `array` | 98% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
+| `relatedChannels` | `array` | 52% | Related channel IDs |
+| `showSchedules` 🔒 | `array` | 97% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
 
@@ -78,11 +78,11 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Music | 451 | `███████████░░░░░░░░░` 56.0% |
-| Sports | 276 | `███████░░░░░░░░░░░░░` 34.2% |
-| Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
-| News & Issues | 23 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
-| Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
+| Music | 451 | `███████████░░░░░░░░░` 54.3% |
+| Sports | 300 | `███████░░░░░░░░░░░░░` 36.1% |
+| Talk & Entertainment | 43 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
+| News & Issues | 23 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| Comedy | 11 | `░░░░░░░░░░░░░░░░░░░░` 1.3% |
 | Howard Stern | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
 
 </details>
@@ -97,9 +97,9 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | Sports Play-by-Play | 70 | `███░░░░░░░░░░░░░░░░░` 16.3% |
 | All Xtra | 62 | `███░░░░░░░░░░░░░░░░░` 14.4% |
 | MLB Play-by-Play | 47 | `██░░░░░░░░░░░░░░░░░░` 10.9% |
-| Rock | 43 | `██░░░░░░░░░░░░░░░░░░` 10.0% |
 | NFL Play-by-Play | 43 | `██░░░░░░░░░░░░░░░░░░` 10.0% |
-| Pop | 38 | `██░░░░░░░░░░░░░░░░░░` 8.8% |
+| Rock | 42 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
+| Pop | 39 | `██░░░░░░░░░░░░░░░░░░` 9.1% |
 | NHL Play-by-Play | 37 | `██░░░░░░░░░░░░░░░░░░` 8.6% |
 | NBA Play-by-Play | 36 | `██░░░░░░░░░░░░░░░░░░` 8.4% |
 | Party | 29 | `█░░░░░░░░░░░░░░░░░░░` 6.7% |
@@ -183,7 +183,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Channel Plays
 
 
-[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 62,118,968 records
+[Recent Track Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/recent-plays) — 62,158,917 records
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
@@ -191,7 +191,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
-[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 57,442,703 records
+[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 57,489,068 records
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
@@ -199,7 +199,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 421,143 records
+[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 424,337 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
