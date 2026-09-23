@@ -1,11 +1,11 @@
 # SiriusXM Channels & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--09--22-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-63.0M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
+![Updated](https://img.shields.io/badge/updated-2026--09--23-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-63.1M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/siriusxm)
 
 Satellite radio channel lineup with genres, categories, channel numbers across platforms, and real-time play-by-play track history across SiriusXM music channels.
 
 
-The [SiriusXM dataset](https://rebrowser.net/products/datasets/siriusxm) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (63.0M records, updated daily), visit [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm).
+The [SiriusXM dataset](https://rebrowser.net/products/datasets/siriusxm) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (63.1M records, updated daily), visit [rebrowser.net/products/datasets/siriusxm](https://rebrowser.net/products/datasets/siriusxm).
 
 
 This dataset contains **2** entities, each in its own folder: Radio Channels (`channels`), Channel Plays (`channel-plays`). See below for a full field breakdown, sample counts, and data distributions for each.
@@ -48,7 +48,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `siriusServiceId` | `float` | 20% | Sirius service ID |
 | `xmServiceId` | `float` | 33% | XM service ID |
 | `vanityUrl` | `string` | 66% | Vanity URL path (e.g., /channels/siriusxm-hits-1) |
-| `deepLink` 🔒 | `string` | 86% | Deep link URL for mobile app |
+| `deepLink` 🔒 | `string` | 87% | Deep link URL for mobile app |
 | `primaryColor` | `string` | 99% | Primary brand color hex code (e.g., #ec008c) |
 | `secondaryColor` | `string` | 100% | Secondary brand color hex code (e.g., #1b3588) |
 | `colorLogoUrl` 🔒 | `string` | 100% | Color logo URL |
@@ -61,7 +61,7 @@ SiriusXM satellite radio channels with names, channel numbers, categories, genre
 | `packages` | `array` | 100% | Subscription package IDs that include this channel |
 | `artistsYouHear` | `array` | 23% | Artists/hosts featured on this channel |
 | `relatedChannels` | `array` | 52% | Related channel IDs |
-| `showSchedules` 🔒 | `array` | 21% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
+| `showSchedules` 🔒 | `array` | 99% | Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms) |
 
 
 
@@ -119,7 +119,7 @@ Real-time track play log for SiriusXM channels — every song played with artist
 
 
 
-> **63,023,701** total records from 2021-10-10 to 2026-09-20, **up to 600,000** rows in this sample (0.95% of full dataset).
+> **63,105,590** total records from 2021-10-10 to 2026-09-20, **up to 600,000** rows in this sample (0.95% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
 ![Data Growth](channel-plays/chart-growth.svg)
@@ -191,7 +191,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
-[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 57,769,793 records
+[Music Channel Plays](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/music-channel-plays) — 57,811,240 records
 
 ↳ `[{"field":"channelCategoryName","op":"is","value":"Music"},{"sort":"playedAt DESC"}]`
 
@@ -199,7 +199,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"channelGenreName","op":"is","value":"Pop"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 454,494 records
+[Long-Form Content (5+ Min)](https://rebrowser.net/products/datasets/siriusxm/channel-plays/views/long-form-content) — 458,852 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
