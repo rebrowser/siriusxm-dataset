@@ -59,7 +59,7 @@
     "name": "longDescription",
     "type": "string",
     "description": "Full channel description with details about hosts and content",
-    "fillRate": 100,
+    "fillRate": 99,
     "premium": false
   },
   {
@@ -220,7 +220,7 @@
     "name": "artistsYouHear",
     "type": "array",
     "description": "Artists/hosts featured on this channel",
-    "fillRate": 23,
+    "fillRate": 22,
     "premium": false
   },
   {
