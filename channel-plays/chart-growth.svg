@@ -29,7 +29,7 @@
           rx="1" fill="#22c55eb3" />
   <rect x="289" y="89" width="44" height="151"
           rx="1" fill="#22c55eb3" />
-  <rect x="335" y="77" width="44" height="163"
+  <rect x="335" y="76" width="44" height="164"
           rx="1" fill="#22c55eb3" />
   <rect x="381" y="86" width="44" height="154"
           rx="1" fill="#22c55eb3" />
@@ -49,10 +49,10 @@
           rx="1" fill="#22c55eb3" />
   <rect x="749" y="73" width="44" height="167"
           rx="1" fill="#22c55eb3" />
-  <rect x="795" y="224" width="44" height="16"
+  <rect x="795" y="176" width="44" height="64"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="81,240 127,227 173,215 219,202 265,190 311,178 357,165 403,153 449,141 495,128 541,115 587,102 633,90 679,77 725,64 771,51 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="81,240 127,228 173,215 219,203 265,191 311,179 357,167 403,155 449,143 495,130 541,117 587,105 633,92 679,80 725,68 771,55 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
