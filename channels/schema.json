@@ -157,7 +157,7 @@
     "name": "secondaryColor",
     "type": "string",
     "description": "Secondary brand color hex code (e.g., #1b3588)",
-    "fillRate": 100,
+    "fillRate": 99,
     "premium": false
   },
   {
@@ -234,7 +234,7 @@
     "name": "showSchedules",
     "type": "array",
     "description": "Scheduled shows with showId, showName, showLogo, startTime, endTime, duration (ms)",
-    "fillRate": 21,
+    "fillRate": 99,
     "premium": true
   }
 ]
