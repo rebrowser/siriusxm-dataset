@@ -52,7 +52,7 @@
     "name": "durationSeconds",
     "type": "float",
     "description": "Duration in seconds with millisecond precision",
-    "fillRate": 8,
+    "fillRate": 9,
     "premium": false
   },
   {
