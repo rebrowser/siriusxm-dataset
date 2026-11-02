@@ -45,7 +45,7 @@
     "name": "album",
     "type": "string",
     "description": "Album title",
-    "fillRate": 10,
+    "fillRate": 11,
     "premium": false
   },
   {
