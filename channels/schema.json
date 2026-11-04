@@ -59,7 +59,7 @@
     "name": "longDescription",
     "type": "string",
     "description": "Full channel description with details about hosts and content",
-    "fillRate": 99,
+    "fillRate": 100,
     "premium": false
   },
   {
@@ -94,7 +94,7 @@
     "name": "genreIconUrl",
     "type": "string",
     "description": "Genre icon URL (SVG)",
-    "fillRate": 28,
+    "fillRate": 27,
     "premium": false
   },
   {
@@ -108,7 +108,7 @@
     "name": "xmChannelNumber",
     "type": "float",
     "description": "XM satellite radio channel number",
-    "fillRate": 33,
+    "fillRate": 32,
     "premium": false
   },
   {
@@ -129,14 +129,14 @@
     "name": "xmServiceId",
     "type": "float",
     "description": "XM service ID",
-    "fillRate": 33,
+    "fillRate": 32,
     "premium": false
   },
   {
     "name": "vanityUrl",
     "type": "string",
     "description": "Vanity URL path (e.g., /channels/siriusxm-hits-1)",
-    "fillRate": 66,
+    "fillRate": 65,
     "premium": false
   },
   {
@@ -227,7 +227,7 @@
     "name": "relatedChannels",
     "type": "array",
     "description": "Related channel IDs",
-    "fillRate": 52,
+    "fillRate": 51,
     "premium": false
   },
   {
