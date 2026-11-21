@@ -45,14 +45,14 @@
     "name": "album",
     "type": "string",
     "description": "Album title",
-    "fillRate": 11,
+    "fillRate": 12,
     "premium": false
   },
   {
     "name": "durationSeconds",
     "type": "float",
     "description": "Duration in seconds with millisecond precision",
-    "fillRate": 9,
+    "fillRate": 10,
     "premium": false
   },
   {
